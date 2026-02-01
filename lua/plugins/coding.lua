@@ -28,6 +28,7 @@ return {
           },
         },
         keymap = {
+          preset = "super-tab",
           ["<C-f>"] = {},
         },
         cmdline = {

@@ -61,8 +61,10 @@ vim.opt.smartcase = true -- Override ignorecase if pattern contains uppercase
 -- ============================================================================
 -- Indentation
 -- ============================================================================
-vim.opt.expandtab = true -- Convert tabs to spaces
-vim.opt.shiftwidth = 2 -- Number of spaces for each indentation level
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.shiftwidth = 4 -- Number of spaces for each indentation level
+vim.opt.tabstop = 4 -- Number of spaces that a <Tab> in the file counts for
+vim.opt.softtabstop = 4 -- Number of spaces that a <Tab> counts for while performing editing operations
 vim.opt.smartindent = true -- Auto-indent new lines based on syntax
 
 -- ============================================================================

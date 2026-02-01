@@ -22,7 +22,7 @@ return {
   -- Mini.nvim (text objects, surround, pairs, statusline, icons)
   -- ════════════════════════════════════════════════════════════════════════════
   {
-    "echasnovski/mini.nvim",
+    "nvim-mini/mini.nvim",
     config = function()
       -- Better Around/Inside textobjects
       -- Examples:
@@ -52,7 +52,7 @@ return {
   },
 
   {
-    "echasnovski/mini.icons",
+    "nvim-mini/mini.icons",
     enabled = true,
     opts = {},
     lazy = true,
